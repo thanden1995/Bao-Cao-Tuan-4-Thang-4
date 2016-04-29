@@ -30,20 +30,20 @@
 
 **Bước 1:** Khởi động lại máy Ubuntu Server để nhận card mạng.
 
-**Bước 2:** Trong giao diện làm việc của Ubuntu Server, kiểm tra xem có bao nhiêu card mạng bằng lệnh '#ifconfig -a|grep eth'
+**Bước 2:** Trong giao diện làm việc của Ubuntu Server, kiểm tra xem có bao nhiêu card mạng bằng lệnh `#ifconfig -a|grep eth`
 
-**Bước 3:** Kiểm tra xem card mạng đã cấu hình hay chưa bằng lệnh '#ifconfig'
+**Bước 3:** Kiểm tra xem card mạng đã cấu hình hay chưa bằng lệnh `#ifconfig`
 
-**Bước 4:** Cấu hình card mạng bằng câu lệnh "vi /etc/network/interfaces"
+**Bước 4:** Cấu hình card mạng bằng câu lệnh `vi /etc/network/interfaces`
 
 <img src="http://imgur.com/ZVEIZRD.png">
 
 **Bước 5:** Restart lại card mạng bằng lệnh 
 
-'ifdown -a'
-'ifup -a'
+`ifdown -a`
+`ifup -a`
 
-**Bước 6:** Kiểm tra lại card mạng đã cấu hình bằng lệnh 'ip a'
+**Bước 6:** Kiểm tra lại card mạng đã cấu hình bằng lệnh `ip a`
 
 <img src="http://imgur.com/alnJ9D6.png">
 
